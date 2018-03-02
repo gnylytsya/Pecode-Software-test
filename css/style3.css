@@ -26,17 +26,16 @@
 }
 
 .main-header{
-    background-image: url(/img/icons/bg_png/top-right.png);
+    background-image: url(../img/icons/bg_png/top-right.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 70.9%;
     background-origin: inherit;
     height: 820px;
-    
+
 }
 
 html, body {
- /* Убирает прокрутку по горизонтале, для мобильной версии */
  overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
@@ -53,7 +52,7 @@ nav{
     font-size: 15px;
     font-weight: 500;
     margin-top: 18px;
-    
+
 }
 
 /*nav{
@@ -61,7 +60,7 @@ nav{
     font-style: normal;
     font-size: 15px;
     font-weight: 500;
-    
+
     margin-top: 18px;
 }
 */
@@ -85,7 +84,7 @@ nav li{
     text-align: center;
     padding-right: 80px;
     margin-top: 5px;
-    
+
 }
 .form-input{
     margin-top: 220px;
@@ -93,12 +92,12 @@ nav li{
     font-family: cosmic;
     font-family: cosmic;
     font-weight: 700;
-    
+
 }
 .form-input input{
     padding: 0;
     margin-top: 30px;
-    
+
 }
 .form-input button{
     width: 197px;
@@ -212,12 +211,12 @@ input:focus::placeholder{
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	-o-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	   transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--nao:focus + .input__label--nao,
 .input--filled .input__label--nao {
 	color: #1DBAA5;
-    font-size: 16px; 
+    font-size: 16px;
 	-webkit-transform: translate3d(0, -30px, 0) scale3d(0.75, 0.75, 1);
 	transform: translate3d(0, -30px, 0) scale3d(0.75, 0.75, 1);
 }
@@ -245,7 +244,7 @@ input:focus::placeholder{
 
 
 #our-requirement{
-    background-image: url(/img/icons/bg_png/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1.png);
+    background-image: url(../img/icons/bg_png/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1.png);
     background-size: 74%;
     background-repeat: no-repeat;
     height: 860px;
@@ -258,7 +257,7 @@ input:focus::placeholder{
     margin-bottom: 109px;*/
 }
 .card-main{
-    
+
 }
 .card{
     /* width: 270px;*/
@@ -274,7 +273,7 @@ input:focus::placeholder{
 .card-2{
    /*  height: 300px;*/
     margin-top: 110px;
-    
+
 }
 .card-3{
     margin-top: 180px;
@@ -304,8 +303,6 @@ input:focus::placeholder{
 
 }
 
-
-}
 .offer-row-2{
     margin-top: 100px;
 }
@@ -316,16 +313,16 @@ input:focus::placeholder{
 /*
 
 .img-1 {
-    background: url(/img/icons/3.png);
-    display: block; 
-    height: 130px; 
+    background: url(../img/icons/3.png);
+    display: block;
+    height: 130px;
     background-repeat: no-repeat;
     text-align: center;
     padding: 100px 0px 100px 0px;
     margin-left: 70px;
    }
 .img-1:hover{
-    background-image: url(/img/icons/a2.png);
+    background-image: url(../img/icons/a2.png);
     height: 170px;
     background-repeat: no-repeat;
 }
@@ -357,12 +354,12 @@ a:hover {
 
 
 #contacts{
-    background-image: url(/img/icons/bg_png/contacts.png);
+    background-image: url(../img/icons/bg_png/contacts.png);
     height: 685px;
     background-repeat: no-repeat;
     color: white;
     margin: auto;
-    
+
 }
 .contact-secont-row{
     margin-top: 60px;
@@ -372,7 +369,7 @@ a:hover {
     margin-top: 290px;
 }
 .contacts-row h5{
- margin-top: 0px;   
+ margin-top: 0px;
 }
 .contacts-row-3 img{
     margin-top: 50px;
@@ -386,10 +383,10 @@ a:hover {
 
                     /*FOOTER*/
 footer{
-    background-image: url(/img/icons/bg_png/footer.png);
+    background-image: url(../img/icons/bg_png/footer.png);
     color: white;
     height: 65px;
-    
+
 }
 footer h2{
     margin: auto;
